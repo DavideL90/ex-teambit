@@ -1,0 +1,49 @@
+@import url(/teambit/node_modules/bootstrap/dist/css/bootstrap.min.css);header {
+  width: 1170px;
+  max-width: 1170px;
+  height: 70px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #BCB4AE;
+}
+
+header .menu-list a {
+  color: #827063;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0 20px;
+}
+
+header .menu-list a:last-child {
+  margin-right: 0;
+  border: 1px solid #31488A;
+  border-radius: 5px;
+  padding: 10px 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+header .menu-list a:last-child:hover {
+  background-color: #31488A;
+  color: white;
+}
+
+header .menu-list a:hover {
+  text-decoration: none;
+  color: #31488A;
+}
+
+header .menu-list a .fa-google {
+  margin-right: 5px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
