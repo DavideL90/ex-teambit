@@ -1,4 +1,4 @@
-$blueColor: #31488A;
+
 
 header{
 
@@ -22,21 +22,21 @@ header{
 
          &:last-child{
             margin-right: 0;
-            border: 1px solid $blueColor;
+            border: 1px solid $blueBtnColor;
             border-radius: 5px;
             padding: 10px 10px;
             transition: all 0.5s ease;
-            color: $blueColor;
+            color: $blueBtnColor;
 
             &:hover{
-               background-color: $blueColor;
+               background-color: $blueBtnColor;
                color: white;
             }
          }
 
          &:hover{
             text-decoration: none;
-            color: $blueColor;
+            color: $blueBtnColor;
          }
          .fa-google{
             margin-right: 5px;

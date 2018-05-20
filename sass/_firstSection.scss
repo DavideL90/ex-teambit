@@ -3,19 +3,41 @@ $titleColor: #58402c;
 
    .container{
       padding: 100px 0;
-   }
-   h1{
-      color: $textColor;
-      font-size: 50px;
-      margin-bottom: 30px;
-      color: $titleColor;
-      line-height: 1.4;
-      font-weight: 600;
+
+      .row{
+
+         h1{
+            color: $textColor;
+            font-size: 50px;
+            margin-bottom: 30px;
+            color: $titleColor;
+            line-height: 1.4;
+            font-weight: 600;
+         }
+
+         h5{
+            font-size: 22px;
+            margin-bottom: 40px;
+            color: $titleColor;
+         }
+         .btnCnt{
+            margin-bottom: 20px;
+
+            span{
+               color: lightgrey;
+               font-size: 13px;
+               margin: 0 15px;
+            }
+         }
+         a{
+            color: $titleColor;
+            font-size: 14px;
+
+            &:hover{
+               text-decoration: none;
+            }
+         }
+      }
    }
 
-   h5{
-      font-size: 1.375rem;
-      margin-bottom: 40px;
-      color: $titleColor;
-   }
 }

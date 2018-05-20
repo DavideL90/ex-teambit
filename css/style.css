@@ -57,7 +57,7 @@ header .menu-list a .fa-google {
   padding: 100px 0;
 }
 
-#firstSection h1 {
+#firstSection .container .row h1 {
   color: #827063;
   font-size: 50px;
   margin-bottom: 30px;
@@ -66,9 +66,41 @@ header .menu-list a .fa-google {
   font-weight: 600;
 }
 
-#firstSection h5 {
-  font-size: 1.375rem;
+#firstSection .container .row h5 {
+  font-size: 22px;
   margin-bottom: 40px;
   color: #58402c;
+}
+
+#firstSection .container .row .btnCnt {
+  margin-bottom: 20px;
+}
+
+#firstSection .container .row .btnCnt span {
+  color: lightgrey;
+  font-size: 13px;
+  margin: 0 15px;
+}
+
+#firstSection .container .row a {
+  color: #58402c;
+  font-size: 14px;
+}
+
+#firstSection .container .row a:hover {
+  text-decoration: none;
+}
+
+button {
+  background-color: #31488A;
+  color: white;
+  outline: none;
+  border-style: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+button:hover {
+  background-color: #263766;
 }
 
