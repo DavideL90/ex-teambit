@@ -1,4 +1,9 @@
+//import bootstrap
 @import url('/teambit/node_modules/bootstrap/dist/css/bootstrap.min.css');
 
-//import partial
+//import generals
+@import 'common.scss';
+@import 'variables.scss';
+//import partials
 @import '_header.scss';
+@import '_firstSection.scss';

@@ -1,37 +1,42 @@
+$blueColor: #31488A;
+
 header{
-   width: 1170px;
-   max-width: 1170px;
-   height: 70px;
-   margin: 0 auto;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   border-bottom: 1px solid #BCB4AE;
+
+   .container{
+      height: 70px;
+      border-bottom: 1px solid #BCB4AE;
+   }
+   .row{
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
 
    .menu-list{
-
       a{
-         color: #827063;
+         color: $textColor;
          font-weight: bold;
-         font-size: 13px;
+         font-size: 14px;
          margin: 0 20px;
 
          &:last-child{
             margin-right: 0;
-            border: 1px solid #31488A;
+            border: 1px solid $blueColor;
             border-radius: 5px;
             padding: 10px 10px;
             transition: all 0.5s ease;
+            color: $blueColor;
 
             &:hover{
-               background-color: #31488A;
+               background-color: $blueColor;
                color: white;
             }
          }
 
          &:hover{
             text-decoration: none;
-            color: #31488A;
+            color: $blueColor;
          }
          .fa-google{
             margin-right: 5px;
