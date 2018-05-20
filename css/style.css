@@ -104,3 +104,45 @@ button:hover {
   background-color: #263766;
 }
 
+.coloredSection {
+  background-color: #FFE7D3;
+}
+
+.coloredSection .container {
+  padding: 80px 0;
+}
+
+.coloredSection .container .title_on_backgr {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #58402c;
+}
+
+.coloredSection .container .image-cnt {
+  max-width: 140px;
+  margin: 20px auto;
+}
+
+.coloredSection .container .image-cnt img {
+  height: 106px;
+}
+
+.coloredSection .container .img-subtitle {
+  font-size: 1.125rem;
+  text-align: center;
+  color: #58402c;
+  margin: 0 30px 100px;
+}
+
+.coloredSection .container .one-image-line {
+  max-width: 280px;
+  margin-bottom: 100px;
+}
+
+.coloredSection .container .line-bottom {
+  border-bottom: 1px solid #BCB4AE;
+  margin-bottom: 100px !important;
+}
+
