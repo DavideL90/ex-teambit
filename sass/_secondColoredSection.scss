@@ -1,0 +1,56 @@
+.coloredSection{
+
+   #biggerTitle{
+      text-align: center;
+      font-size: 40px;
+      font-weight: 600;
+      color: #58402c;
+      max-width: 628px;
+      margin: 0 auto;
+      margin-bottom: 15px;
+      line-height: 1.53;
+   }
+
+   #blockquote{
+      background: white;
+      border-radius: 5px;
+      border: 1px solid #bdb5af;
+      position: relative;
+      max-width: 628px;
+      margin: 35px auto;
+
+      #quote_img{
+         width: 37px;
+         position: absolute;
+         top: -23px;
+      }
+      #text_cnt{
+         padding: 20px 20px 20px 40px;
+
+         #author-quote{
+            display: flex;
+            align-items: center;
+            img{
+               width: 40px;
+            }
+            div{
+               display: flex;
+               flex-direction: column;
+               margin-left: 10px;
+               justify-content: center;
+
+               #author-names{
+                  color: #30488f;
+               }
+
+               p{
+                  margin: 0;
+                  font-size: 13px;
+                  color: #58402c;
+               }
+            }
+         }
+      }
+   }
+
+}

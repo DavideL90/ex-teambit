@@ -19,23 +19,6 @@
             margin-bottom: 40px;
             color: $titleColor;
          }
-         .btnCnt{
-            margin-bottom: 20px;
-
-            span{
-               color: lightgrey;
-               font-size: 13px;
-               margin: 0 15px;
-            }
-         }
-         a{
-            color: $titleColor;
-            font-size: 14px;
-
-            &:hover{
-               text-decoration: none;
-            }
-         }
       }
    }
 

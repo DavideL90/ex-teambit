@@ -9,3 +9,12 @@ body {
    margin-bottom: 50px;
    color: $titleColor;
 }
+
+.email-link{
+   color: $titleColor;
+   font-size: 14px;
+
+   &:hover{
+      text-decoration: none;
+   }
+}
