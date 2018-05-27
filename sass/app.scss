@@ -2,10 +2,11 @@
 @import url('/teambit/node_modules/bootstrap/dist/css/bootstrap.min.css');
 
 //import generals
-@import 'common.scss';
 @import 'variables.scss';
+@import 'common.scss';
 //import partials
 @import '_header.scss';
 @import '_firstSection.scss';
 @import '_button.scss';
 @import '_coloredSection.scss';
+@import '_thirdSection.scss';

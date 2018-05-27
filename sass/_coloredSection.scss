@@ -4,7 +4,7 @@
    .container{
       padding: 80px 0;
 
-      .title_on_backgr{
+      .smalltitles{
          text-align: center;
          font-size: 26px;
          font-weight: 600;
@@ -15,7 +15,7 @@
       .image-cnt{
          max-width: 140px;
          margin: 20px auto;
-
+         text-align: center;
          img{
             height: 106px;
          }
@@ -35,7 +35,7 @@
 
       .line-bottom{
          border-bottom: 1px solid $borderBottomColor;
-         margin-bottom: 100px !important;
+         margin-bottom: 80px !important;
       }
    }
 
